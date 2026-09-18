@@ -1,0 +1,12 @@
+{
+    "permissions": {
+        "deny": [
+            "Edit",
+            "Write",
+            "NotebookEdit",
+            "Bash",
+            "Task",
+            "mcp__*"
+        ]
+    }
+}
