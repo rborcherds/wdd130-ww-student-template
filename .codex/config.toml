@@ -1,0 +1,3 @@
+# Restrict Codex only; students can still edit files in their editor.
+sandbox_mode = "read-only"
+approval_policy = "never"
