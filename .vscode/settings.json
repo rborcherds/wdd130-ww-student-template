@@ -53,7 +53,16 @@
   "liveServer.settings.port": 5504,
   // Keep AI assistance in tutor/chat mode; students edit assignment files themselves.
   // These settings also control ChatGPT Codex behaviour when supported by the extension.
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false
+  },
+  "github.copilot.editor.enableAutoCompletions": false,
+  "github.copilot.inlineSuggest.enable": false,
+  "github.copilot.nextEditSuggestions.enabled": false,
   "chat.agent.enabled": false,
+  "chat.mcp.enabled": false,
   "chat.includeReferencedInstructions": true,
   "chat.useAgentsMdFile": true,
   // limit Intellisense help in the terminal
